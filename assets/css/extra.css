@@ -1,0 +1,28 @@
+#list {
+  display: flex;
+  justify-content: space-around;
+}
+
+#links {
+  font-size: 22px;
+  text-decoration: none;
+  list-style: none;
+}
+
+#links:hover {
+  opacity: 0.5;
+}
+
+#icon {
+  font-size: 30px;
+}
+
+#title {
+  font-size: 22px;
+  border-bottom: 1px solid gray;
+}
+
+#item {
+  font-size: 18px;
+  list-style: none;
+}

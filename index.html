@@ -10,6 +10,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/extra.css" />
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111436334-1"></script>
 		<script>
@@ -26,25 +27,14 @@
 		<!-- Header -->
 			<header id="header" class="alt">
 				<h1><a href="index.html">Henry H. Chen</a></h1>
-				<a href="#nav">Click Me!</a>
 			</header>
-
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="links">
-					<li><a href="index.html">About Me</a></li>
-					<li><a href="generic.html">Projects</a></li>
-					<li><a href="elements.html">Technology</a></li>
-				</ul>
-			</nav>
 
 		<!-- Banner -->
 			<section id="banner">
-				<p>My name is Henry Chen. I'm a software engineer and web designer. Browse my projects, or find out more about me below.</p>
-				<ul class="actions">
-					<li><a href="https://github.com/henrychen11" class="button big special">LinkedIn</a></li>
-					<li><a href="https://www.linkedin.com/in/henrychen11" class="button big special">GitHub</a></li>
-				</ul>
+				<p>Hello, my name is Henry Chen.
+				</br>
+
+				I'm a software engineer and web designer. Browse my projects, or find out more about me below.</p>
 			</section>
 
 		<!-- One -->
@@ -56,10 +46,10 @@
 							<h2>Cryptos</h2>
 							<p>Cryptos is an iOS application that gathers and displays data on the top cryptocurrencies in real-time. It uses our own backend API endpoints to render current and historical data. I built this with a team in which I principally served as the Front-End Engineer.</p>
 							<p>Created with React-Native, MongoDB, Express, React Native, and NodeJS</p>
-							<ul class="actions">
-								<li>
-									<a href="https://cryptosapp.io/" class="button alt">Live</a>
-									<a href="https://github.com/henrychen11/cryptos" class="button alt">GitHub</a>
+							<ul>
+								<li id="list">
+									<a href="https://cryptosapp.io/" id="links">Live</a>
+									<a href="https://github.com/henrychen11/cryptos" id="links">GitHub</a>
 								</li>
 							</ul>
 						</div>
@@ -68,12 +58,12 @@
 						<span class="image"><img src="images/liqr.png" alt="" /></span>
 						<div class="content">
 							<h2>liqr</h2>
-							<p>liqr is a photo sharing application inspired by flicker.com. Users can upload images they want to share, view and comment on photos shared by other users, and organize pictures in dedicated albums.</p>
+							<p>liqr is a photo sharing application inspired by flicker. Users can upload images they want to share, view and comment on photos shared by other users, and organize pictures in dedicated albums.</p>
 							<p>Created with Ruby on Rails and React/Redux.</p>
-							<ul class="actions">
-								<li>
-									<a href="https://liqr.herokuapp.com" class="button alt">Live</a>
-									<a href="https://github.com/henrychen11/liqr" class="button alt">GitHub</a>
+							<ul class="">
+								<li id="list">
+									<a href="https://liqr.herokuapp.com" id="links">Live</a>
+									<a href="https://github.com/henrychen11/liqr" id="links">GitHub</a>
 								</li>
 							</ul>
 						</div>
@@ -84,17 +74,16 @@
 							<h2>Topodata</h2>
 							<p>This project shows the average salary (wage) for all 50 states. Users has the ability to display historical data from 2011. Users will have the ability to filter by industry and also select the year. When users hover over each state, a tooltip will appear that shows additional details about that state.</p>
 							<p>Created with D3 and vanilla JavaScript (ES6).</p>
-							<ul class="actions">
-								<li>
-									<a href="https://topodata.henryhchen.com/" class="button alt">Live</a>
-									<a href="https://github.com/henrychen11/topodata" class="button alt">GitHub</a>
+							<ul class="">
+								<li id="list">
+									<a href="https://topodata.henryhchen.com/" id="links">Live</a>
+									<a href="https://github.com/henrychen11/topodata" id="links">GitHub</a>
 								</li>
 							</ul>
 						</div>
 					</article>
 				</div>
 			</section>
-
 		<!-- Two -->
 			<section id="two" class="wrapper">
 				<div class="inner">
@@ -104,25 +93,49 @@
 					</header>
 					<div class="image-grid">
 						<div class="image">
-							<span class="icon fa-television"></span>
-							<h3>Frontend:
-							<br><br>JavaScript (vanilla, jQuery, React/Redux, ES6), HTML/CSS/Sass</h3>
-							<p></p>
+							<i id="icon" class="fa fa-desktop" aria-hidden="true"></i>
+							<h2 id="title">Frontend</h2>
+							<ul id="item">
+								<li>JavaScript</li>
+								<li>jQuery</li>
+								<li>React/Redux</li>
+								<li>HTML/CSS/Sass</li>
+							</ul>
 						</div>
 						<div class="image">
-							<i class="custom fa fa-database" aria-hidden="true"></i>
-							<h3>Backend: <br><br>
-							Python, Java, Ruby on Rails, Node, Express, MongoDB</h3>
+							<i id="icon" class="fa fa-database" aria-hidden="true"></i>
+							<h2 id="title">Backend</h2>
+							<ul id="item">
+								<li>Python</li>
+								<li>Ruby on Rails</li>
+								<li>Express</li>
+								<li>Node</li>
+								<li>MongoDB</li>
+							</ul>
 						</div>
 						<div class="image">
-							<span class="icon fa-mobile"></span>
-							<h3>iOS Development: <br>
-							<br>REACT NATIVE<br>XCODE</h3>
+							<i id="icon" class="fa fa-mobile" aria-hidden="true"></i>
+							<h2 id="title">iOS Development</h2>
+							<ul id="item">
+								<li>React Native</li>
+								<li>xCode</li>
+							</ul>
 						</div>
 						<div class="image">
-							<span class="icon fa-pencil"></span>
-							<h3>DESIGN: <br><br>
-							ADOBE CREATIVE SUITE<br>Balsamiq Mockups</h3>
+							<i id="icon" class="fa fa-pencil" aria-hidden="true"></i>
+							<h2 id="title">Design</h2>
+							<ul id="item">
+								<li>Adobe Photoshop</li>
+								<li>Balsamiq Mockups</li>
+							</ul>
+						</div>
+						<div class="image">
+							<i id="icon" class="fa fa-bar-chart" aria-hidden="true"></i>
+							<h2 id="title">Data Visualization</h2>
+							<ul id="item">
+								<li>D3</li>
+								<li>Tableau</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -132,12 +145,11 @@
 			<section id="three" class="wrapper style3 special">
 				<div class="inner">
 					<header class="major narrow	">
-						<h2>Magna sed consequat tempus</h2>
-						<p>Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed amet accumsan</p>
+						<h2>About Me</h2>
+						<p>Originally from Southern California, I went to Cal and fell in love with the technology scene so decided to stay in the Bay Area. With my previous years of technical job experience, I decided to pursue my passion as a software developer.
+						</br>
+							If you'd like to find out more about my qualifications, or would just like to chat, please send me an email. Thanks for checking out my portfolio!</p>
 					</header>
-					<ul class="actions">
-						<li><a href="#" class="button big alt">Magna feugiat</a></li>
-					</ul>
 				</div>
 			</section>
 
@@ -150,6 +162,9 @@
 						</a></li>
 						<li><a href="https://www.linkedin.com/in/henrychen11" class="icon fa-linkedin">
 							<span class="label">LinkedIn</span>
+						</a></li>
+						<li><a href="https://github.com/henrychen11/" class="icon fa-github">
+							<span class="label">GitHub</span>
 						</a></li>
 					</ul>
 					<ul class="copyright">
