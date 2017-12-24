@@ -26,3 +26,13 @@
   font-size: 18px;
   list-style: none;
 }
+
+#custom-button {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#custom-button:hover {
+  font-weight: 800;
+  text-decoration: underline;
+}
