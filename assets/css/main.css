@@ -3892,7 +3892,6 @@
 		background-size: cover;
 		text-align: center;
 		height: 100vh;
-		pointer-events: none;
 	}
 
 	#banner:before {
@@ -3913,12 +3912,12 @@
 		position: absolute;
 		top: 0;
 		width: 100%;
-		z-index: 1;
-		pointer-events: none
 	}
 
 	#banner .inner {
-		background-color: blue;
+		/* background-color: blue; */
+		z-index: 5;
+		position: relative;
 	}
 
 	body.is-loading #banner .inner {

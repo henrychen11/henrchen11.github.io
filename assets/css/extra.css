@@ -30,7 +30,6 @@
 #custom-button {
   font-size: 25px;
   text-decoration: none;
-  z-index: 10;
 }
 
 #custom-button:hover {
