@@ -3881,7 +3881,7 @@
 		}
 
 /* Banner */
-	
+
 	/* #banner {
 		padding: 8em 0 6em 0;
 		background-color: #1E2832;
@@ -3893,11 +3893,12 @@
 		height: 100vh;
 	} */
 	#banner {
-		background: url("images/overlay.png"), url("../../images/banner.jpg") no-repeat center center fixed; 
+		background: url("images/overlay.png"), url("../../images/banner.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		text-align: center;
 		height: 100vh;
 	}
 
@@ -4068,8 +4069,8 @@
 			color: #fff;
 			font-size: 30px;
 			/* margin: 350px 0 0 350px; */
-			margin: 15% 0 0 15%;
-			width: 450px;
+			padding: 25% 0 0 15%;
+			width: 850px;
 			line-height: 1.5em;
 		}
 
