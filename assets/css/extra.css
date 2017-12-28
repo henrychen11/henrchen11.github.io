@@ -28,11 +28,6 @@
 }
 
 #custom-button {
-  font-size: 25px;
+  color: black;
   text-decoration: none;
-}
-
-#custom-button:hover {
-  font-weight: 800;
-  text-decoration: underline;
 }
