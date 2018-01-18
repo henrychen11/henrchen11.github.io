@@ -29,4 +29,8 @@
 
 #custom-button {
   text-decoration: none;
+  border: 3px solid gray;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 15px;
 }
